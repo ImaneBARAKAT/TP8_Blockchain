@@ -12,10 +12,6 @@ Voici une capture d'écran de l'interface Flutter Web :
 
 ![DApp Screenshot](./screenshots/dapp_ui.png)
 
-## Structure du dépôt
-- `blockchain/` : code Truffle (Smart contract, migrations, tests).
-- `flutter_app/` : application Flutter qui consomme l'ABI et interagit avec le contrat.
-- `README.md`, `.gitignore`.
 
 ## Prérequis
 - Node.js (v16+)
