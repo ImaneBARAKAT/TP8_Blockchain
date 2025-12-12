@@ -5,7 +5,12 @@ Auteur: Imane Barakat
 Date: 08/12/2025
 
 ## Description
-Application décentralisée (DApp) simple: un contrat Ethereum `HelloWorld` qui stocke un nom, un frontend Flutter qui affiche le nom et permet de le modifier via une transaction.
+Application décentralisée (DApp) simple : un contrat Ethereum `HelloWorld` qui stocke un nom, un frontend Flutter qui affiche le nom et permet de le modifier via une transaction.
+
+## Aperçu de l'application
+Voici une capture d'écran de l'interface Flutter Web :
+
+![DApp Screenshot](./screenshot/dapp_ui.png)
 
 ## Structure du dépôt
 - `blockchain/` : code Truffle (Smart contract, migrations, tests).
@@ -27,7 +32,8 @@ Application décentralisée (DApp) simple: un contrat Ethereum `HelloWorld` qui 
 2. Note l'URL RPC (par défaut `http://127.0.0.1:7545`) et la clé privée d'un compte.
 
 ### 2. Compiler & migrer les contrats
-Ouvre un terminal dans `blockchain/` :
+Dans le dossier `blockchain/` :
+
 ```bash
 npm install
 truffle compile
