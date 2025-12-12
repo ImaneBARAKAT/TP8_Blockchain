@@ -10,7 +10,7 @@ Application décentralisée (DApp) simple : un contrat Ethereum `HelloWorld` qui
 ## Aperçu de l'application
 Voici une capture d'écran de l'interface Flutter Web :
 
-![DApp Screenshot](./screenshot/dapp_ui.png)
+![DApp Screenshot](./screenshots/dapp_ui.png)
 
 ## Structure du dépôt
 - `blockchain/` : code Truffle (Smart contract, migrations, tests).
